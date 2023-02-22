@@ -1,0 +1,64 @@
+
+[
+    {
+        "id": 1,
+        "name":"sweet item",
+        "price": 13,
+        "image":"im1.jpeg"
+    },
+    {
+        "id": 2,
+        "name":"American Cake",
+        "price": 19,
+        "image":"im2.jpeg"
+    },
+    {
+        "id": 3,
+        "name":"Cake off eggs",
+        "price": 13,
+        "image":"im3.jpeg"
+    },
+    {
+        "id": 4,
+        "name":"Chocolate cake",
+        "price": 23,
+        "image":"im4.jpeg"
+    },
+    {
+        "id": 5,
+        "name":"Milk cake and Butter",
+        "price":29,
+        "image":"im5.jpeg"
+    },
+    {
+        "id":6,
+        "name":"cake of Butter",
+        "price": 20,
+        "image":"im6.jpeg"
+    },
+    {
+        "id":7,
+        "name":"Beautiful Cake of mariage",
+        "price": 113,
+        "image":"im7.jpeg"
+    },
+    {
+        "id": 8,
+        "name":"milk an chocolate",
+        "price": 33,
+        "image":"im8.jpeg"
+    },
+    {
+        "id": 9,
+        "name":"chocolate dessert",
+        "price": 9,
+        "image":"im9.jpeg"
+    },
+    {
+        "id": 10,
+        "name":"cake of cafe",
+        "price":4,
+        "image":"im10.jpeg"
+    } 
+   
+]
