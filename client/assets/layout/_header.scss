@@ -1,0 +1,214 @@
+
+.navigation{
+    height: 80px;
+    background: $color1;
+    font-family: $font4;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 66% 33%;
+    align-items: center;
+    
+    .bloc2{
+        ul{
+            .item-card{
+               background: palevioletred;
+               }
+            } 
+            .card{
+                background: white;
+                position: absolute;
+                top: 80px;
+                right:-500px;
+                transition: 0.3s ease;
+                .card-nav{
+                    .card-item{
+                        display: flex;
+                        justify-content: center;
+                        overflow: hidden;
+                        margin: 5px 25px;
+                        width: 300px;
+                        height: auto;
+                        border-bottom: 2px solid whitesmoke;
+                        cursor: pointer;
+
+                        .text p{
+                            display: flex;
+                            align-self: first baseline;
+                        }
+                        img{
+                            width: 100px;
+                            height: 100px;
+                            border-radius: 50px;
+                        }
+
+                     
+                    }
+                }
+            }
+        }
+       
+    }
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        li{
+            list-style-type: none;
+            cursor: pointer;
+            padding: 10px;
+            &:hover{
+                border: 2px solid palevioletred;
+            }
+        }
+    }
+.header{
+    .header-text{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 120px 0;
+        padding: 100px;
+       
+        h1{
+            margin: 30px 0 0 0;
+            font-family: $font2;
+            font-size: 3rem;
+            color: palevioletred;
+            transition: 0.3s;
+        }
+        button{
+            padding: 10px;
+            margin: 5px 0;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+            font-family: $font3;
+            border: 2px solid palevioletred;
+            color: white;
+            background: #333;
+            width: 200px;
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover{
+                background: $color1;
+                color: #333;
+            }
+        }
+
+ 
+     }
+     
+   
+
+}
+
+
+.section-contact{
+    width: 80%;
+    margin: 0 auto;
+    .section-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        .header-container{
+            width: 60%;
+            p{
+                font-family: $font2;
+            }
+            h2{
+                font-family: $font3;
+            }
+            button{
+                padding: 10px;
+                background: #333;
+                color: $color1;
+                font-size: 1.1rem;
+                border: 2px solid $color1;
+                cursor: pointer;
+                margin: 10px 0;
+            }
+            
+        }
+        .footer-container{
+            width: 40%;
+            img{
+                width: 100%;
+                border-radius: 10px;
+                margin: 0px 20px;
+                min-width: 300px;
+            }
+        }
+    
+    }
+}
+
+#store{
+    background: rgb(235, 233, 231);
+    width: 100%;
+    padding: 10px;
+    .store-container{
+        width: 70%;
+        margin: 0 auto;
+        input{
+            width: 100%;
+            padding: 8px;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            transition: 0.3s ease;
+            
+            &::placeholder{
+                font-size: 1rem;
+                color: palevioletred;
+            }
+        }
+        .container{
+            display: flex;
+            padding: 10px;
+             button{
+                 border-radius: 15px;
+                 padding: 10px;
+                 background: #f79494;
+                 color: $color1;
+                 font-size: 1.1rem;
+                 border: 2px solid $color1;
+                 cursor: pointer;
+                 margin: 10px 10px;
+             }
+        }
+
+    }
+   
+}
+
+
+.items-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    .cake{
+        transition: 0.3s;
+        cursor: pointer;
+        margin: 15px;
+        &:hover{
+        transform: scale(1.1);
+          
+        }
+        flex:1 1 25%;
+        img{
+            width: 100%;
+            min-width: 200px;
+        }
+        p{
+            color:black;
+            font-family: $font3;
+        }
+        strong{
+            font-size: 1.2rem;
+            font-family: $font3;
+
+        }
+    }
+
+}

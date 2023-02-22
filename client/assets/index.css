@@ -1,1 +1,206 @@
-/*# sourceMappingURL=index.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@400;500;600;700;900&family=Manrope:wght@200;300;400;500;700;800&family=Montserrat+Alternates:ital,wght@0,200;0,300;0,500;0,600;1,200;1,300;1,400;1,500&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Nunito+Sans:ital,wght@0,300;0,400;0,900;1,200;1,300;1,400&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  height: 80px;
+  background: white;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1rem;
+  display: grid;
+  grid-template-columns: 66% 33%;
+  align-items: center;
+}
+.navigation .bloc2 ul .item-card {
+  background: palevioletred;
+}
+.navigation .bloc2 .card {
+  background: white;
+  position: absolute;
+  top: 80px;
+  right: -500px;
+  transition: 0.3s ease;
+}
+.navigation .bloc2 .card .card-nav .card-item {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin: 5px 25px;
+  width: 300px;
+  height: auto;
+  border-bottom: 2px solid whitesmoke;
+  cursor: pointer;
+}
+.navigation .bloc2 .card .card-nav .card-item .text p {
+  display: flex;
+  align-self: first baseline;
+}
+.navigation .bloc2 .card .card-nav .card-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+ul li {
+  list-style-type: none;
+  cursor: pointer;
+  padding: 10px;
+}
+ul li:hover {
+  border: 2px solid palevioletred;
+}
+
+.header .header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 120px 0;
+  padding: 100px;
+}
+.header .header-text h1 {
+  margin: 30px 0 0 0;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  color: palevioletred;
+  transition: 0.3s;
+}
+.header .header-text button {
+  padding: 10px;
+  margin: 5px 0;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-family: "Manrope", sans-serif;
+  border: 2px solid palevioletred;
+  color: white;
+  background: #333;
+  width: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header .header-text button:hover {
+  background: white;
+  color: #333;
+}
+
+.section-contact {
+  width: 80%;
+  margin: 0 auto;
+}
+.section-contact .section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.section-contact .section-container .header-container {
+  width: 60%;
+}
+.section-contact .section-container .header-container p {
+  font-family: "Dancing Script", cursive;
+}
+.section-contact .section-container .header-container h2 {
+  font-family: "Manrope", sans-serif;
+}
+.section-contact .section-container .header-container button {
+  padding: 10px;
+  background: #333;
+  color: white;
+  font-size: 1.1rem;
+  border: 2px solid white;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.section-contact .section-container .footer-container {
+  width: 40%;
+}
+.section-contact .section-container .footer-container img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 0px 20px;
+  min-width: 300px;
+}
+
+#store {
+  background: rgb(235, 233, 231);
+  width: 100%;
+  padding: 10px;
+}
+#store .store-container {
+  width: 70%;
+  margin: 0 auto;
+}
+#store .store-container input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  transition: 0.3s ease;
+}
+#store .store-container input::-moz-placeholder {
+  font-size: 1rem;
+  color: palevioletred;
+}
+#store .store-container input::placeholder {
+  font-size: 1rem;
+  color: palevioletred;
+}
+#store .store-container .container {
+  display: flex;
+  padding: 10px;
+}
+#store .store-container .container button {
+  border-radius: 15px;
+  padding: 10px;
+  background: #f79494;
+  color: white;
+  font-size: 1.1rem;
+  border: 2px solid white;
+  cursor: pointer;
+  margin: 10px 10px;
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.items-container .cake {
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 15px;
+  flex: 1 1 25%;
+}
+.items-container .cake:hover {
+  transform: scale(1.1);
+}
+.items-container .cake img {
+  width: 100%;
+  min-width: 200px;
+}
+.items-container .cake p {
+  color: black;
+  font-family: "Manrope", sans-serif;
+}
+.items-container .cake strong {
+  font-size: 1.2rem;
+  font-family: "Manrope", sans-serif;
+}
+
+.header {
+  background: url(./layout/img/im3.jpeg) center/cover;
+  height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}/*# sourceMappingURL=index.css.map */

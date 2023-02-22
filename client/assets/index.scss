@@ -1,0 +1,11 @@
+@import "./settings";
+@import "./layout/header";
+
+.header {
+    background: url(./layout/img/im3.jpeg) center/cover;
+    height: 100vh;
+}
+
+html{
+    scroll-behavior: smooth;
+}

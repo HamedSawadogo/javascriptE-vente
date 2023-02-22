@@ -5,10 +5,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/index.css">
+    <meta name="description" content="site de vente de gateaux en ligne">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Accueil</title>
 </head>
 
 <body>
+    <header class="header">
+        <!-- navigation du site -->
+        <nav class="navigation">
+            <div class="bloc1">
+                <ul>
+                    <span><img src="./assets/layout/img/logo.svg" alt="logo du site"></span>
+                    <li class="item">Homme</li>
+                    <li class="item">About</li>
+                    <li class="item">Store</li>
+                </ul>
+            </div>
+            <div class="bloc2">
+                <ul>
+                    <li class="item">+226 89 73 36 30</li>
+                    <li class="item-card">2-items-20.000francs</li>
+                    <div class="card">
+                        <div class="card-nav">
+                            <div class="card-item">
+                                <div class="image">
+                                    <img src="./assets/layout/img/im1.jpeg" alt="article du pannier">
+                                </div>
+                                <div class="text">
+                                    <p>gateaux Annivaisaire</p>
+                                    <strong>2000 francs</strong>
+                                    <i class="fa-solid fa-trash" id="delete"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <!-- fin navigation -->
+        <div class="header-text">
+            <h1>Welcome To GrandMas</h1>
+            <button>explore</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-contact">
+            <div class="section-container">
+                <div class="header-container">
+                    <h2>About</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat doloribus quas molestias
+                        similique
+                        tenetur quidem magnam eveniet laudantium officia qui! Esse quaerat suscipit quia beatae
+                        adipisci,
+                        quibusdam placeat sed repudiandae.
+                        Et necessitatibus ipsum harum, non reiciendis nobis ex. Eaque, nesciunt nihil eos saepe
+                        molestiae
+                        qui
+                        explicabo expedita modi dolorem similique perferendis odio ipsa repudiandae hic repellat tempora
+                        error
+                        facere voluptas!
+                        Excepturi cumque eaque id ut dolore error neque cupiditate odio, suscipit in quisquam molestiae
+                        doloremque voluptatum non, reiciendis ullam exercitationem nihil hic voluptas laborum sequi
+                        quidem!
+                        Similique facere nulla facilis.
+                        Consectetur numquam perferendis sit, fuga quam quia iusto vel, ea, dolores ullam eum ipsam.
+                        Alias,
+                        hic.
+                        Perferendis rem omnis, accusantium nemo porro a sint rerum perspiciatis quia assumenda.
+                        Eligendi,
+                        odio.
+                        Cumque dolorem fugit laborum debitis, quam architecto provident ea, assumenda consequatur error,
+                        nobis
+                        adipisci animi reiciendis. Fuga temporibus provident placeat dolor excepturi molestiae ab
+                        reprehenderit
+                        officia. Esse eveniet animi culpa!</p>
+                    <button>explore</button>
+                </div>
+                <div class="footer-container">
+                    <img src="./assets/layout/img/sweets-1.jpeg" alt="">
+                </div>
+            </div>
+
+            <section id="store">
+                <div class="store-container">
+                    <ul class="container">
+                        <button>All</button>
+                        <button id="desc">TRI DECROISSANT</button>
+                        <button id="crois">TRI CROISSANT</button>
+                        <button>SWEETS</button>
+                        <button>DOUGHNUTS</button>
+                    </ul>
+                    <input type="search" name="" id="search" placeholder="rechercher">
+
+                    <div class="items-container">
+
+                    </div>
+                </div>
+
+            </section>
+        </section>
+
+    </main>
+
 
     <script src="index.js" type="module"></script>
 </body>
