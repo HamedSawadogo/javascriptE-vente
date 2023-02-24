@@ -1,8 +1,6 @@
 let card = document.querySelector('.card');
 let itemCard = document.querySelector('.item-card');
 
-
-console.log(itemCard);
 itemCard.addEventListener('click', (e) => {
     e.preventDefault();
     if (card.style.right == '-500px') {
@@ -16,10 +14,11 @@ let search = document.getElementById('search');
 let decroissant = document.getElementById('desc');
 let croissant = document.getElementById('crois');
 
+
 console.log(search);
 let order = 'croissant';
 async function fetchData() {
-    await fetch('./assets/data/data.json')
+    await fetch('../../javascriptE-vente/client/assets/data/data.json')
         .then((res) => res.json())
         .then((data) => (cakeData = data))
         .catch((err) => console.log(err));
@@ -42,7 +41,7 @@ async function displayCakes() {
             })
             .map((cake) => (
                 `<div class="cake" data-id='${cake.id}'>
-               <img src='./assets/layout/img/${cake.image}'>
+               <img src='./client/assets/layout/img/${cake.image}'>
                <p>${cake.name}</p>
                <strong>${cake.price} francs</strong>
              </div>`
